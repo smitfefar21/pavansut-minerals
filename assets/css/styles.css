@@ -1,0 +1,51 @@
+/* Add your custom styles here */
+body {
+  text-rendering: optimizeLegibility;
+  text-rendering: optimizeSpeed;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-nav.ml-auto .nav-item {
+  margin-right: 10px;
+}
+
+.section-heading {
+  color: rgb(80, 80, 80); /* Fallback */
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(80, 80, 80);
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+a.lang {
+  box-sizing: border-box;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: inline-block;
+  background: #eee;
+  width: 100%;
+  margin: 5px 0;
+  text-align: center;
+  color: #000;
+}
+
+a.lang-select {
+  box-sizing: border-box;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: inline-block;
+  color:#ff8805;
+  background: #eee;
+  width: 100%;
+  margin: 5px 0;
+  text-align: center;
+}
