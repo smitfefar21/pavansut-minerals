@@ -1,11 +1,17 @@
 /* Add your custom styles here */
 body {
+  font-family: 'Nunito', sans-serif;
   text-rendering: optimizeLegibility;
   text-rendering: optimizeSpeed;
 }
 
+.navbar {
+  font-size: 18px;
+}
+
 .navbar-brand img {
-  max-height: 40px;
+  padding-left: 20px;
+  max-width: 190px;
 }
 
 .navbar-nav.ml-auto .nav-item {
@@ -48,4 +54,12 @@ a.lang-select {
   width: 100%;
   margin: 5px 0;
   text-align: center;
+}
+
+.carousel {
+  padding: 20px 20px 20px 20px;
+}
+
+.parallax {
+  background-image: url("/assets/images/banner/slider-1.jpg");
 }
