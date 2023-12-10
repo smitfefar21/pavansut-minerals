@@ -7,9 +7,10 @@ body {
 
 .navbar {
   font-size: 18px;
+  font-weight: bold;
 }
 
-.navbar-brand img {
+.navbar img{
   padding-left: 20px;
   max-width: 190px;
 }
@@ -56,10 +57,21 @@ a.lang-select {
   text-align: center;
 }
 
-.carousel {
-  padding: 20px 20px 20px 20px;
+.caption {
+  position: relative;
+  color: #F9F5F6;
+  text-align: center;
+}
+
+.carousel-inner {
+  padding-top: 175px;
 }
 
 .parallax {
-  background-image: url("/assets/images/banner/slider-1.jpg");
+  background-image: url("../../assets/images/banner/slider-1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
