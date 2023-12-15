@@ -21,9 +21,8 @@ body {
 
 .section-heading {
   color: rgb(80, 80, 80); /* Fallback */
-  text-transform: uppercase;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgb(80, 80, 80);
   letter-spacing: 3px;
   padding-bottom: 15px;
