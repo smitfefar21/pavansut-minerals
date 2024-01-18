@@ -58,8 +58,12 @@ a.lang-select {
 
 .caption {
   position: relative;
-  color: #F9F5F6;
+  color: #ffffff;
   text-align: center;
+}
+
+.caption span{
+  background-color: #000000;
 }
 
 .carousel-inner {
@@ -67,12 +71,18 @@ a.lang-select {
 }
 
 .parallax {
-  background-image: url("../../assets/images/banner/slider-1.jpg");
+  background-image: url("../images/banner/slider.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #00000094;
+}
+
+product-img {
+  height: 300px;
+  width: 100%;
 }
 
 .footer li {
